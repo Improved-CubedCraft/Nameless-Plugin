@@ -26,7 +26,7 @@ upload-placeholders:
 # Enable PlaceholderAPI and MVdWPlaceholderAPI placeholders
 # This will increase traffic to your NamelessMC website (depending on placeholders-request-delay)
 # This option will be ignored if PlaceholderAPI and MVdWPlaceholderAPI are not installed
-enable-placeholders: false
+enable-placeholders: true
 
 # Number of milliseconds in between notifications request
 # Lower number means more frequent updates of placeholders, but higher
@@ -34,7 +34,7 @@ enable-placeholders: false
 placeholders-request-delay: 2000
 
 # Turn on debug mode for the underlying NamelessMC Java API
-api-debug-mode: false
+api-debug-mode: true
 
 # Send a message to players who don't have a NamelessMC account when they join
 not-registered-join-message: false
